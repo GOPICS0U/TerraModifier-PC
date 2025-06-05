@@ -1,0 +1,139 @@
+{
+  "solar_flare": {
+    "name": "Éruption solaire",
+    "description": "Une puissante éruption solaire frappe la planète, endommageant les équipements électroniques.",
+    "type": "negative",
+    "probability": 0.05,
+    "duration": 300,
+    "effects": {
+      "energy_production_modifier": -0.3,
+      "building_damage_chance": 0.1
+    },
+    "requirements": {
+      "min_buildings": 3
+    }
+  },
+  "meteor_shower": {
+    "name": "Pluie de météores",
+    "description": "Des météores riches en minéraux s'écrasent sur la planète, apportant des ressources précieuses.",
+    "type": "positive",
+    "probability": 0.03,
+    "duration": 0,
+    "effects": {
+      "credits_bonus": 500,
+      "science_bonus": 100
+    },
+    "requirements": {}
+  },
+  "dust_storm": {
+    "name": "Tempête de poussière",
+    "description": "Une massive tempête de poussière réduit l'efficacité des panneaux solaires.",
+    "type": "negative",
+    "probability": 0.08,
+    "duration": 600,
+    "effects": {
+      "solar_efficiency_modifier": -0.5,
+      "temperature_modifier": -5.0
+    },
+    "requirements": {
+      "planets": ["Mars", "Venus"]
+    }
+  },
+  "scientific_breakthrough": {
+    "name": "Percée scientifique",
+    "description": "Vos chercheurs font une découverte majeure qui accélère la recherche.",
+    "type": "positive",
+    "probability": 0.04,
+    "duration": 1200,
+    "effects": {
+      "science_production_modifier": 0.5
+    },
+    "requirements": {
+      "min_research_labs": 2
+    }
+  },
+  "equipment_malfunction": {
+    "name": "Dysfonctionnement d'équipement",
+    "description": "Un équipement critique tombe en panne, nécessitant des réparations coûteuses.",
+    "type": "negative",
+    "probability": 0.06,
+    "duration": 0,
+    "effects": {
+      "credits_cost": 300,
+      "energy_cost": 50
+    },
+    "requirements": {
+      "min_buildings": 5
+    }
+  },
+  "volcanic_activity": {
+    "name": "Activité volcanique",
+    "description": "L'activité volcanique réchauffe l'atmosphère mais libère des gaz toxiques.",
+    "type": "mixed",
+    "probability": 0.02,
+    "duration": 900,
+    "effects": {
+      "temperature_modifier": 10.0,
+      "oxygen_modifier": -2.0,
+      "pressure_modifier": 0.05
+    },
+    "requirements": {
+      "planets": ["Venus", "Europa"]
+    }
+  },
+  "ice_age": {
+    "name": "Ère glaciaire",
+    "description": "Un refroidissement global affecte la planète pendant une longue période.",
+    "type": "negative",
+    "probability": 0.01,
+    "duration": 1800,
+    "effects": {
+      "temperature_modifier": -15.0,
+      "energy_consumption_modifier": 0.2
+    },
+    "requirements": {
+      "min_habitability": 30
+    }
+  },
+  "alien_artifact": {
+    "name": "Artefact alien",
+    "description": "Découverte d'un mystérieux artefact alien qui booste la recherche scientifique.",
+    "type": "positive",
+    "probability": 0.005,
+    "duration": 0,
+    "effects": {
+      "science_bonus": 1000,
+      "unlock_special_tech": true
+    },
+    "requirements": {
+      "min_science": 500
+    }
+  },
+  "resource_discovery": {
+    "name": "Découverte de ressources",
+    "description": "Vos équipes de prospection découvrent un riche gisement de ressources.",
+    "type": "positive",
+    "probability": 0.07,
+    "duration": 0,
+    "effects": {
+      "credits_bonus": 800
+    },
+    "requirements": {
+      "min_mining_facilities": 1
+    }
+  },
+  "atmospheric_leak": {
+    "name": "Fuite atmosphérique",
+    "description": "Une faille dans l'atmosphère cause une perte de pression et d'oxygène.",
+    "type": "negative",
+    "probability": 0.04,
+    "duration": 450,
+    "effects": {
+      "pressure_modifier": -0.1,
+      "oxygen_modifier": -3.0
+    },
+    "requirements": {
+      "min_pressure": 0.5
+    }
+  }
+}
