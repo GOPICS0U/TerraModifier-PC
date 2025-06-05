@@ -1,0 +1,66 @@
+{
+  "basic_infrastructure": {
+    "name": "Infrastructure de base",
+    "description": "Technologies fondamentales pour établir une présence sur la planète",
+    "icon": "assets/images/tech_infrastructure.png",
+    "cost": {"science": 0},
+    "prerequisites": [],
+    "unlocks": ["solar_panel", "heater", "basic_mining"]
+  },
+  "energy_systems": {
+    "name": "Systèmes énergétiques",
+    "description": "Technologies avancées de production et stockage d'énergie",
+    "icon": "assets/images/tech_energy.png",
+    "cost": {"science": 100},
+    "prerequisites": ["basic_infrastructure"],
+    "unlocks": ["advanced_solar", "nuclear_reactor", "energy_storage"]
+  },
+  "atmospheric_engineering": {
+    "name": "Ingénierie atmosphérique",
+    "description": "Manipulation et contrôle de l'atmosphère planétaire",
+    "icon": "assets/images/tech_atmosphere.png",
+    "cost": {"science": 150},
+    "prerequisites": ["basic_infrastructure"],
+    "unlocks": ["atmosphere_processor", "cooler", "pressure_regulator"]
+  },
+  "life_support": {
+    "name": "Support vital",
+    "description": "Technologies pour créer et maintenir des conditions de vie",
+    "icon": "assets/images/tech_life.png",
+    "cost": {"science": 200},
+    "prerequisites": ["atmospheric_engineering"],
+    "unlocks": ["oxygen_generator", "greenhouse", "habitat_dome"]
+  },
+  "advanced_materials": {
+    "name": "Matériaux avancés",
+    "description": "Nouveaux matériaux pour des constructions plus efficaces",
+    "icon": "assets/images/tech_materials.png",
+    "cost": {"science": 250},
+    "prerequisites": ["energy_systems"],
+    "unlocks": ["advanced_buildings", "terraforming_station"]
+  },
+  "biotechnology": {
+    "name": "Biotechnologie",
+    "description": "Manipulation génétique et biologie synthétique",
+    "icon": "assets/images/tech_bio.png",
+    "cost": {"science": 300},
+    "prerequisites": ["life_support"],
+    "unlocks": ["bio_dome", "genetic_lab", "ecosystem_manager"]
+  },
+  "planetary_engineering": {
+    "name": "Ingénierie planétaire",
+    "description": "Modification à grande échelle des planètes",
+    "icon": "assets/images/tech_planetary.png",
+    "cost": {"science": 500},
+    "prerequisites": ["advanced_materials", "biotechnology"],
+    "unlocks": ["planetary_engine", "magnetic_field_generator"]
+  },
+  "space_colonization": {
+    "name": "Colonisation spatiale",
+    "description": "Technologies pour établir des colonies permanentes",
+    "icon": "assets/images/tech_colony.png",
+    "cost": {"science": 400},
+    "prerequisites": ["biotechnology"],
+    "unlocks": ["colony_ship", "space_elevator", "orbital_station"]
+  }
+}

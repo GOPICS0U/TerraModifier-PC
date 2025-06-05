@@ -1,0 +1,68 @@
+{
+  "Mars": {
+    "description": "La planète rouge, notre voisin le plus proche. Atmosphère fine, températures froides, mais un potentiel énorme pour la terraformation.",
+    "image": "assets/images/mars.png",
+    "initial_temperature": -60.0,
+    "initial_pressure": 0.006,
+    "initial_oxygen": 0.1,
+    "mass": 0.38,
+    "distance": 1.52,
+    "day_length": 24.6,
+    "difficulty": "normal"
+  },
+  "Venus": {
+    "description": "L'enfer de notre système solaire. Atmosphère dense et toxique, températures extrêmes. Un défi de terraformation ultime.",
+    "image": "assets/images/venus.png",
+    "initial_temperature": 462.0,
+    "initial_pressure": 92.0,
+    "initial_oxygen": 0.0,
+    "mass": 0.95,
+    "distance": 0.72,
+    "day_length": 2802.0,
+    "difficulty": "hard"
+  },
+  "Moon": {
+    "description": "Notre satellite naturel. Pas d'atmosphère, températures extrêmes, mais proche de la Terre. Parfait pour débuter.",
+    "image": "assets/images/moon.png",
+    "initial_temperature": -20.0,
+    "initial_pressure": 0.0,
+    "initial_oxygen": 0.0,
+    "mass": 0.12,
+    "distance": 1.0,
+    "day_length": 708.0,
+    "difficulty": "easy"
+  },
+  "Europa": {
+    "description": "Lune glacée de Jupiter. Océan sous la glace, potentiel pour la vie. Défi unique de terraformation.",
+    "image": "assets/images/europa.png",
+    "initial_temperature": -160.0,
+    "initial_pressure": 0.0,
+    "initial_oxygen": 0.0,
+    "mass": 0.65,
+    "distance": 5.2,
+    "day_length": 85.2,
+    "difficulty": "hard"
+  },
+  "Titan": {
+    "description": "Lune de Saturne avec une atmosphère dense. Lacs de méthane, conditions uniques. Terraformation exotique.",
+    "image": "assets/images/titan.png",
+    "initial_temperature": -179.0,
+    "initial_pressure": 1.45,
+    "initial_oxygen": 0.0,
+    "mass": 0.18,
+    "distance": 9.5,
+    "day_length": 382.7,
+    "difficulty": "normal"
+  },
+  "Ceres": {
+    "description": "Planète naine dans la ceinture d'astéroïdes. Petite mais riche en ressources. Bon pour l'apprentissage.",
+    "image": "assets/images/ceres.png",
+    "initial_temperature": -105.0,
+    "initial_pressure": 0.0,
+    "initial_oxygen": 0.0,
+    "mass": 0.015,
+    "distance": 2.8,
+    "day_length": 9.1,
+    "difficulty": "easy"
+  }
+}
