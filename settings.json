@@ -1,0 +1,18 @@
+{
+    "fullscreen": false,
+    "window_width": 1200,
+    "window_height": 800,
+    "vsync": true,
+    "music_enabled": true,
+    "music_volume": 0.7,
+    "sfx_enabled": true,
+    "sfx_volume": 0.8,
+    "auto_save": true,
+    "auto_save_interval": 300,
+    "simulation_speed": 1.0,
+    "show_tooltips": true,
+    "difficulty": "normal",
+    "language": "fr",
+    "debug_mode": false,
+    "show_fps": false
+}
